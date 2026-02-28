@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ChevronRight, Home } from "lucide-react";
-import defaultBg from "../assets/image/bg.jpg";
+// Import gambar background default
+const defaultBg = "/images/bg.JPG";
 
 const PageHeader = ({ title, description, bgImage, parentPage = "Home" }) => {
   return (

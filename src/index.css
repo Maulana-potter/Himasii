@@ -67,6 +67,7 @@
     /* Latar belakang putih dengan rona biru sangat tipis agar bersih */
     --background: 210 40% 98%;
     --foreground: 222 47% 11%;
+    --thirdary: 213 31% 91%;
 
     /* Kartu putih bersih */
     --card: 0 0% 100%;
@@ -87,6 +88,7 @@
     /* BACKGROUND: Deep Navy dari warna Almamater */
     --background: 222 47% 6%;
     --foreground: 213 31% 91%;
+    --thirdary: 222 47% 11%;
 
     /* CARD: Navy yang sedikit lebih terang agar berdimensi */
     --card: 222 47% 10%;
