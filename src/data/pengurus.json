@@ -1,0 +1,155 @@
+{
+  "pimpinan": [
+    {
+      "id": 1,
+      "name": "Wenny Utami",
+      "role": "Ketua Umum",
+      "image": "/images/WENNY.png",
+      "desc": "Mahasiswa Sistem Informasi UMSU Angkatan 2023."
+    },
+    {
+      "id": 2,
+      "name": "Salsa Bila",
+      "role": "Sekretaris Umum",
+      "image": "/images/SALSA.png",
+      "desc": "Bertanggung jawab atas administrasi organisasi."
+    },
+    {
+      "id": 3,
+      "name": "Caca Marica",
+      "role": "Bendahara Umum",
+      "image": "/images/CACA.png",
+      "desc": "Mengelola sirkulasi keuangan himpunan."
+    }
+  ],
+  "divisi": {
+    "Humas": [
+      {
+        "id": 11,
+        "name": "Rina Kartika",
+        "role": "Ketua Divisi",
+        "image": "/images/SALSA.png"
+      },
+      {
+        "id": 12,
+        "name": "Dinda Pertiwi",
+        "role": "Sekretaris Divisi",
+        "image": "/images/CACA.png"
+      },
+      {
+        "id": 13,
+        "name": "Budi Santoso",
+        "role": "Anggota",
+        "image": "/images/WENNY.png"
+      },
+      {
+        "id": 14,
+        "name": "Siti Aminah",
+        "role": "Anggota",
+        "image": "/images/SALSA.png"
+      },
+      {
+        "id": 15,
+        "name": "Reza Rahardian",
+        "role": "Anggota",
+        "image": "/images/CACA.png"
+      }
+    ],
+    "Ristek": [
+      {
+        "id": 21,
+        "name": "Dimas Anggara",
+        "role": "Ketua Divisi",
+        "image": "/images/WENNY.png"
+      },
+      {
+        "id": 22,
+        "name": "Putri Ayu",
+        "role": "Sekretaris Divisi",
+        "image": "/images/SALSA.png"
+      },
+      {
+        "id": 23,
+        "name": "Kevin Sanjaya",
+        "role": "Anggota",
+        "image": "/images/CACA.png"
+      },
+      {
+        "id": 24,
+        "name": "Lesti Kejora",
+        "role": "Anggota",
+        "image": "/images/WENNY.png"
+      },
+      {
+        "id": 25,
+        "name": "Rizky Billar",
+        "role": "Anggota",
+        "image": "/images/SALSA.png"
+      }
+    ],
+    "PSDM": [
+      {
+        "id": 31,
+        "name": "Fajar Nugraha",
+        "role": "Ketua Divisi",
+        "image": "/images/CACA.png"
+      },
+      {
+        "id": 32,
+        "name": "Maya Estianty",
+        "role": "Sekretaris Divisi",
+        "image": "/images/WENNY.png"
+      },
+      {
+        "id": 33,
+        "name": "Ahmad Dhani",
+        "role": "Anggota",
+        "image": "/images/SALSA.png"
+      },
+      {
+        "id": 34,
+        "name": "Mulan Jameela",
+        "role": "Anggota",
+        "image": "/images/CACA.png"
+      },
+      {
+        "id": 35,
+        "name": "Al Ghazali",
+        "role": "Anggota",
+        "image": "/images/WENNY.png"
+      }
+    ],
+    "Medinfo": [
+      {
+        "id": 41,
+        "name": "Raffi Ahmad",
+        "role": "Ketua Divisi",
+        "image": "/images/SALSA.png"
+      },
+      {
+        "id": 42,
+        "name": "Nagita Slavina",
+        "role": "Sekretaris Divisi",
+        "image": "/images/CACA.png"
+      },
+      {
+        "id": 43,
+        "name": "Rafathar Malik",
+        "role": "Anggota",
+        "image": "/images/WENNY.png"
+      },
+      {
+        "id": 44,
+        "name": "Rayyanza Malik",
+        "role": "Anggota",
+        "image": "/images/SALSA.png"
+      },
+      {
+        "id": 45,
+        "name": "Sus Rini",
+        "role": "Anggota",
+        "image": "/images/CACA.png"
+      }
+    ]
+  }
+}
