@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { ArrowRight, GraduationCap } from "lucide-react";
 
 // Import assets
-import logo from "../assets/Logo.png";
-import groupPhoto from "../assets/image/bg.jpg";
+const logo = "/Logo.png"; // Ganti dengan path logo HIMASI Anda
+const groupPhoto = "/images/bg.jpg"; // Ganti dengan path gambar kegiatan Anda
 
 const Hero = () => {
   return (

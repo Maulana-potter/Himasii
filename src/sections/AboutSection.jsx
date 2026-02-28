@@ -1,6 +1,7 @@
 import React from "react";
 import { Target, Zap, Layout, CheckCircle2 } from "lucide-react";
-import logoImg from "../assets/Logo.png";
+
+const logoImg = "/Logo.png";
 
 const AboutSection = () => {
   return (

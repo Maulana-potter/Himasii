@@ -1,7 +1,8 @@
 import React from "react";
-import wenny from "../assets/image/WENNY.png";
-import salsa from "../assets/image/SALSA.png";
-import annisa from "../assets/image/CACA.png";
+
+const salsa = "/images/SALSA.png";
+const wenny = "/images/WENNY.png";
+const annisa = "/images/CACA.png";
 
 const Pimpinan = () => {
   const pimpinan = [

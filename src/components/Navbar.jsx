@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Sparkles } from "lucide-react";
-import logoImg from "../assets/Logo.png";
+
+const logoImg = "/Logo.png"; // Ganti dengan path logo HIMASI Anda
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);

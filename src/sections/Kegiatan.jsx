@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ArrowRight, Calendar, Sparkles, CheckCircle2 } from "lucide-react";
-import groupPhoto from "../assets/image/bg.jpg"; // Asset kegiatan Anda
 
+const groupPhoto = "/images/bg.JPG";
 const Kegiatan = () => {
   const dataKegiatan = [
     {

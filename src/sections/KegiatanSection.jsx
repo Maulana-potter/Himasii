@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 
 // Ganti dengan import gambar kegiatan asli Anda
-import img1 from "../assets/image/bg.jpg";
+const img1 = "/images/bg.JPG";
 // import img2 from "../assets/image/kegiatan2.jpg";
 // import img3 from "../assets/image/kegiatan3.jpg";
 
