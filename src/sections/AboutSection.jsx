@@ -93,7 +93,7 @@ const AboutSection = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 w-full">
                 {[
                   "Lorem ipsum dolor sit amet consectetur.",
-                  "Adipiscing elit sed do eiusmod tempor.",
+                  "rAdipiscing elit sed do eiusmod tempo.",
                   "Incididunt ut labore et dolore magna.",
                   "Ut enim ad minim veniam quis nostrud.",
                 ].map((text, i) => (

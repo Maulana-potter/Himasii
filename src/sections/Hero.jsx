@@ -4,7 +4,7 @@ import { ArrowRight, GraduationCap } from "lucide-react";
 
 // Import assets
 const logo = "/Logo.png"; // Ganti dengan path logo HIMASI Anda
-const groupPhoto = "/images/bg.jpg"; // Ganti dengan path gambar kegiatan Anda
+const groupPhoto = "/images/bg.JPG"; // Ganti dengan path gambar kegiatan Anda
 
 const Hero = () => {
   return (

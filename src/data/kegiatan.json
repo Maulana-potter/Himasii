@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Inaugurasi & Pelantikan 2026",
+    "date": "20 Februari 2026",
+    "location": "Aula Utama UMSU",
+    "image": "/images/bg.JPG",
+    "tag": "Ceremony",
+    "instagram": "https://instagram.com/himasi.umsu"
+  },
+  {
+    "id": 2,
+    "title": "HIMASI Tech Camp V",
+    "date": "10-12 Januari 2026",
+    "location": "Bumi Perkemahan Sibolangit",
+    "image": "/images/bg.JPG",
+    "tag": "Outdoor",
+    "instagram": "https://instagram.com/himasi.umsu"
+  },
+  {
+    "id": 3,
+    "title": "Workshop Laravel & React",
+    "date": "15 Desember 2025",
+    "location": "Lab Komputer 2",
+    "image": "/images/bg.JPG",
+    "tag": "Workshop",
+    "instagram": "https://instagram.com/himasi.umsu"
+  }
+]

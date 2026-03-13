@@ -5,150 +5,662 @@
       "name": "Wenny Utami",
       "role": "Ketua Umum",
       "image": "/images/WENNY.png",
-      "desc": "Mahasiswa Sistem Informasi UMSU Angkatan 2023."
+      "desc": "Mahasiswa Sistem Informasi UMSU Angkatan 2023.",
+      "socials": {
+        "instagram": "http://instagram.com/vye.nn",
+        "linkedin": "http://linkedin.com/in/wenny-dinasti-utami",
+        "github": "http://github.com/wenny-dtm"
+      }
     },
     {
       "id": 2,
       "name": "Salsa Bila",
       "role": "Sekretaris Umum",
       "image": "/images/SALSA.png",
-      "desc": "Bertanggung jawab atas administrasi organisasi."
+      "desc": "Bertanggung jawab atas administrasi organisasi.",
+      "socials": {
+        "instagram": "/",
+        "linkedin": "/",
+        "github": "/"
+      }
     },
     {
       "id": 3,
       "name": "Caca Marica",
       "role": "Bendahara Umum",
       "image": "/images/CACA.png",
-      "desc": "Mengelola sirkulasi keuangan himpunan."
+      "desc": "Mengelola sirkulasi keuangan himpunan.",
+      "socials": {
+        "instagram": "/",
+        "linkedin": "/",
+        "github": "/"
+      }
     }
   ],
   "divisi": {
     "Humas": [
       {
-        "id": 11,
-        "name": "Rina Kartika",
+        "id": 4,
+        "name": "Dinda Nuzul Ramadhani",
         "role": "Ketua Divisi",
-        "image": "/images/SALSA.png"
+        "image": "/images/humas/Dinda Nuzul Ramadhani.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/nuzznd",
+          "github": "http://github.com/nujull"
+        }
       },
       {
-        "id": 12,
-        "name": "Dinda Pertiwi",
+        "id": 5,
+        "name": "Nadia Pratiwi",
         "role": "Sekretaris Divisi",
-        "image": "/images/CACA.png"
+        "image": "/images/humas/Nadia Pratiwi.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/nnadptw",
+          "linkedin": "https://www.linkedin.com/in/nadia-pratiwi1",
+          "github": "https://github.com/Nadiapratiwi05"
+        }
       },
       {
         "id": 13,
-        "name": "Budi Santoso",
+        "name": "Afif Bajra Hawari Anhar",
         "role": "Anggota",
-        "image": "/images/WENNY.png"
+        "image": "/images/humas/Afif Bajra Hawari Anhar.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/bxjraaz?igsh=N3NuN3RpZW5qczNy&utm_source=qr",
+          "linkedin": "/",
+          "github": "https://github.com/bajraaaa"
+        }
       },
       {
         "id": 14,
-        "name": "Siti Aminah",
+        "name": "Aulia Shandika",
         "role": "Anggota",
-        "image": "/images/SALSA.png"
+        "image": "/images/humas/Aulia Shandika.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/auliaashndika?igsh=N2Z6ZnZ3aWp1aGZo",
+          "github": "https://github.com/auliaa227"
+        }
       },
       {
         "id": 15,
-        "name": "Reza Rahardian",
+        "name": "Balqis Nabila Asyra",
         "role": "Anggota",
-        "image": "/images/CACA.png"
+        "image": "/images/humas/Balqis Nabila Asyra.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/blqisnabila14?igsh=cjRvcmltaDdqYzI2",
+          "linkedin": "https://www.linkedin.com/in/balqis-nabila-asyra-98bb3b398/",
+          "github": "https://share.google/LZwNj04wLTMh5iwX"
+        }
+      },
+      {
+        "id": 16,
+        "name": "Chandra Mahsyhuri Harahap",
+        "role": "Anggota",
+        "image": "/images/humas/Chandra Mahsyhuri Harahap.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/chandra_harp_/",
+          "github": "https://github.com/Chandra-harahap/chandra"
+        }
+      },
+      {
+        "id": 17,
+        "name": "Dafa Ananda Tri Ertato",
+        "role": "Anggota",
+        "image": "/images/humas/Dafa Ananda Tri Ertato.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/nandaa_ertato?ig",
+          "github": "https://github.com/dafaanandatri"
+        }
+      },
+      {
+        "id": 18,
+        "name": "Dela Sartika Kaila",
+        "role": "Anggota",
+        "image": "/images/humas/Dela Sartika Kaila.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 19,
+        "name": "Dewi Artanti",
+        "role": "Anggota",
+        "image": "/images/humas/Dewi Artanti.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/d.artnti",
+          "linkedin": "/",
+          "github": "https://github.com/dewiartanti07"
+        }
+      },
+      {
+        "id": 20,
+        "name": "Najiyah Ramadhani",
+        "role": "Anggota",
+        "image": "/images/humas/Najiyah Ramadhani.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/jirmdhni_?igsh=cWVwNzB1ZT0dailz",
+          "github": "https://github.com/najiyahramadhani-code"
+        }
+      },
+      {
+        "id": 21,
+        "name": "Nur Ismi Anggraini",
+        "role": "Anggota",
+        "image": "/images/humas/Nur Ismi Anggraini.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/ismianggraini?igsh=NmF0ajNwZHIhMNTn",
+          "github": "https://github.com/nurismianggraini22"
+        }
+      },
+      {
+        "id": 22,
+        "name": "Putra Rian Hardika",
+        "role": "Anggota",
+        "image": "/images/humas/Putra Rian Hardika.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/pryanhh_?igsh=MWY4YWx3cTg1MHp4Ng==",
+          "github": "https://github.com/pryanhh/BIODATA.git"
+        }
+      },
+      {
+        "id": 23,
+        "name": "Reina Naira",
+        "role": "Anggota",
+        "image": "/images/humas/Reina Naira.png",
+        "socials": {
+          "instagram": "http://instagram.com/einanairaa",
+          "github": "https://github.com/Reinanairaa"
+        }
+      },
+      {
+        "id": 24,
+        "name": "Rizky Aulia Sibarani",
+        "role": "Anggota",
+        "image": "/images/humas/Rizky Aulia Sibarani.png",
+        "socials": {
+          "instagram": "http://www.instagram.com/ikyyasbr?igsh=eXN5Mml1a2gzZXRm"
+        }
       }
     ],
     "Ristek": [
       {
         "id": 21,
-        "name": "Dimas Anggara",
+        "name": "Nazar Maulana",
         "role": "Ketua Divisi",
-        "image": "/images/WENNY.png"
+        "image": "/images/ristek/NAZAR MAULANA.png",
+        "socials": {
+          "instagram": "https://instagram.com/dimasanggara",
+          "linkedin": "https://linkedin.com/in/dimasanggara",
+          "github": "https://github.com/dimasanggara"
+        }
       },
       {
         "id": 22,
-        "name": "Putri Ayu",
+        "name": "Nabila Putri Sinulingga",
         "role": "Sekretaris Divisi",
-        "image": "/images/SALSA.png"
+        "image": "/images/ristek/NABILA PUTRI .png",
+        "socials": {
+          "instagram": "https://instagram.com/putriayu",
+          "linkedin": "https://linkedin.com/in/putriayu",
+          "github": "https://github.com/putriayu"
+        }
       },
       {
         "id": 23,
-        "name": "Kevin Sanjaya",
+        "name": "Alwi Hadi Pratama",
         "role": "Anggota",
-        "image": "/images/CACA.png"
+        "image": "/images/ristek/Alwi Hadi Pratama.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
       },
       {
         "id": 24,
-        "name": "Lesti Kejora",
+        "name": "Amanda Panggabean",
         "role": "Anggota",
-        "image": "/images/WENNY.png"
+        "image": "/images/ristek/Amanda Panggabean.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
       },
       {
         "id": 25,
-        "name": "Rizky Billar",
+        "name": "Aswan Indra Natalis P.",
         "role": "Anggota",
-        "image": "/images/SALSA.png"
+        "image": "/images/ristek/Aswan Indra Natalis P..png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 26,
+        "name": "Fajar Abdi Pratama",
+        "role": "Anggota",
+        "image": "/images/ristek/Fajar Abdi Pratama.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 27,
+        "name": "Hafis Safrizal",
+        "role": "Anggota",
+        "image": "/images/ristek/Hafis Safrizal.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 28,
+        "name": "Keisya Yumna Salsabila",
+        "role": "Anggota",
+        "image": "/images/ristek/Keisya Yumna Salsabila.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 29,
+        "name": "Muhammad Aidil Akbar",
+        "role": "Anggota",
+        "image": "/images/ristek/Muhammad Aidil Akbar.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 30,
+        "name": "Muhammad Andrico Arfira",
+        "role": "Anggota",
+        "image": "/images/ristek/Muhammad Andrico Arfira.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 31,
+        "name": "Muhammad Rizky Akasyah",
+        "role": "Anggota",
+        "image": "/images/ristek/Muhammad Rizky Akasyah.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 32,
+        "name": "Putri Azzahra",
+        "role": "Anggota",
+        "image": "/images/ristek/Putri Azzahra.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 33,
+        "name": "Syarif Maulana Putra",
+        "role": "Anggota",
+        "image": "/images/ristek/Syarif Maulana Putra.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 34,
+        "name": "Yudha Pratama",
+        "role": "Anggota",
+        "image": "/images/ristek/Yudha Pratama.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
       }
     ],
     "PSDM": [
       {
         "id": 31,
-        "name": "Fajar Nugraha",
+        "name": "Muhammad Fauzan Azhimi",
         "role": "Ketua Divisi",
-        "image": "/images/CACA.png"
+        "image": "/images/CACA.png",
+        "socials": {
+          "instagram": "https://instagram.com/fajarnugraha",
+          "linkedin": "https://linkedin.com/in/fajarnugraha",
+          "github": "https://github.com/fajarnugraha"
+        }
       },
       {
         "id": 32,
-        "name": "Maya Estianty",
+        "name": "Aricha Olmi Hasibuan",
         "role": "Sekretaris Divisi",
-        "image": "/images/WENNY.png"
+        "image": "/images/pdsm/Aricha Olmi Hasibuan.png",
+        "socials": {
+          "instagram": "https://instagram.com/mayaestianty",
+          "linkedin": "https://linkedin.com/in/mayaestianty",
+          "github": "https://github.com/mayaestianty"
+        }
       },
       {
         "id": 33,
-        "name": "Ahmad Dhani",
+        "name": "Adelia Yufanisya",
         "role": "Anggota",
-        "image": "/images/SALSA.png"
+        "image": "/images/pdsm/Adelia Yufanisya.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
       },
       {
         "id": 34,
-        "name": "Mulan Jameela",
+        "name": "Alya Nadhillah Zebua",
         "role": "Anggota",
-        "image": "/images/CACA.png"
+        "image": "/images/pdsm/Alya Nadhillah Zebua.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
       },
       {
         "id": 35,
-        "name": "Al Ghazali",
+        "name": "Ananda Pratama",
         "role": "Anggota",
-        "image": "/images/WENNY.png"
+        "image": "/images/pdsm/Ananda Pratama.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 36,
+        "name": "Balqis Alhumaira",
+        "role": "Anggota",
+        "image": "/images/pdsm/Balqis Alhumaira.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 37,
+        "name": "Ikmal Fahrizan",
+        "role": "Anggota",
+        "image": "/images/pdsm/Ikmal Fahrizan.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 38,
+        "name": "Muhammad Anzwa Noor",
+        "role": "Anggota",
+        "image": "/images/pdsm/Muhammad Anzwa Noor.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 39,
+        "name": "Muhammad Ghazi",
+        "role": "Anggota",
+        "image": "/images/pdsm/Muhammad Ghazi.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 40,
+        "name": "Muhammad Ifdal Sofyan",
+        "role": "Anggota",
+        "image": "/images/pdsm/Muhammad Ifdal Sofyan.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 41,
+        "name": "Nur Pelastina",
+        "role": "Anggota",
+        "image": "/images/pdsm/Nur Pelastina.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 42,
+        "name": "Rizky Teguh Priyadi",
+        "role": "Anggota",
+        "image": "/images/pdsm/Rizky Teguh Priyadi.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 43,
+        "name": "Siti Rahmami Anggina Pohan",
+        "role": "Anggota",
+        "image": "/images/pdsm/Siti Rahmami Anggina Pohan.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 44,
+        "name": "Wahda Alya Sadira Siregar",
+        "role": "Anggota",
+        "image": "/images/pdsm/Wahda Alya Sadira Siregar.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 45,
+        "name": "Zalwa Nur Adzani",
+        "role": "Anggota",
+        "image": "/images/pdsm/Zalwa Nur  Adzani.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
       }
     ],
     "Medinfo": [
       {
-        "id": 41,
-        "name": "Raffi Ahmad",
+        "id": 55,
+        "name": "Fauzan Akbar",
         "role": "Ketua Divisi",
-        "image": "/images/SALSA.png"
+        "image": "/images/Medinfo/fauzanakbar.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/zanakbarr_?",
+          "linkedin": "https://www.linkedin.com/in/zanakbarr",
+          "github": "https://github.com/ypojan_r_"
+        }
       },
       {
-        "id": 42,
-        "name": "Nagita Slavina",
+        "id": 56,
+        "name": "Keisya Naifa Sasi Kirana",
         "role": "Sekretaris Divisi",
-        "image": "/images/CACA.png"
+        "image": "/images/Medinfo/Keisya Naifa Sasi Kirana.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/keiyy_____",
+          "linkedin": "https://www.linkedin.com/in/keisyanaifask",
+          "github": "https://github.com/keisyanaifa11"
+        }
       },
       {
-        "id": 43,
-        "name": "Rafathar Malik",
+        "id": 57,
+        "name": "Aidil Daffa",
         "role": "Anggota",
-        "image": "/images/WENNY.png"
+        "image": "/images/Medinfo/Aidil Daffa.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/_aidldppa",
+          "linkedin": "/",
+          "github": "https://github.com/Aidldppa"
+        }
       },
       {
-        "id": 44,
-        "name": "Rayyanza Malik",
+        "id": 58,
+        "name": "Arief Fadillah",
         "role": "Anggota",
-        "image": "/images/SALSA.png"
+        "image": "/images/Medinfo/Arief Fadillah.png",
+        "socials": {
+          "instagram": "https://www.instagram.com/arif_fadillaa",
+          "linkedin": "/",
+          "github": "/"
+        }
       },
       {
-        "id": 45,
-        "name": "Sus Rini",
+        "id": 59,
+        "name": "Arvi Ardila",
         "role": "Anggota",
-        "image": "/images/CACA.png"
+        "image": "/images/Medinfo/Arvi Ardila.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 60,
+        "name": "Baiq Reingganis Sutami",
+        "role": "Anggota",
+        "image": "/images/Medinfo/Baiq Reingganis Sutami.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 61,
+        "name": "Muas Farhanda",
+        "role": "Anggota",
+        "image": "/images/Medinfo/Muas Farhanda.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 62,
+        "name": "Muhammad Gilang Perdana",
+        "role": "Anggota",
+        "image": "/images/Medinfo/Muhammad Gilang Perdana.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 63,
+        "name": "Muhammad Nabil Hidayah",
+        "role": "Anggota",
+        "image": "/images/Medinfo/Muhammad Nabil Hidayah.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 64,
+        "name": "Muhammad Naufal Hakimi",
+        "role": "Anggota",
+        "image": "/images/Medinfo/Muhammad Naufal Hakimi.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 65,
+        "name": "Muhammad Priya Pambudhi",
+        "role": "Anggota",
+        "image": "/images/Medinfo/Muhammad Priya Pambudhi.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 66,
+        "name": "Nadia Puspita",
+        "role": "Anggota",
+        "image": "/images/Medinfo/Nadia Puspita.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 67,
+        "name": "Nayla Adzra Syafia",
+        "role": "Anggota",
+        "image": "/images/Medinfo/Nayla Adzra Syafia.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
+      },
+      {
+        "id": 68,
+        "name": "Novia Fitri Ananda",
+        "role": "Anggota",
+        "image": "/images/Medinfo/Novia Fitri Ananda.png",
+        "socials": {
+          "instagram": "/",
+          "linkedin": "/",
+          "github": "/"
+        }
       }
     ]
   }

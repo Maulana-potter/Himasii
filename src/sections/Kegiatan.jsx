@@ -1,36 +1,23 @@
 import React, { useState } from "react";
 import { ArrowRight, Calendar, Sparkles, CheckCircle2 } from "lucide-react";
 
-const groupPhoto = "/images/bg.JPG";
+// Import data JSON
+import kegiatanData from "../data/kegiatan.json";
+
 const Kegiatan = () => {
-  const dataKegiatan = [
-    {
-      id: 1,
-      tag: "Event Utama",
-      title: "Pelantikan Pengurus",
-      date: "12 Jan 2026",
-      desc: "Peresmian kepengurusan HIMASI UMSU periode 2026-2027 sebagai langkah awal memulai inovasi digital.",
-      img: groupPhoto,
-    },
-    {
-      id: 2,
-      tag: "Edukasi",
-      title: "Workshop Desain",
-      date: "05 Feb 2026",
-      desc: "Pelatihan UI/UX Design intensif untuk meningkatkan skill visual mahasiswa dalam membangun antarmuka aplikasi.",
-      img: groupPhoto,
-    },
-    {
-      id: 3,
-      tag: "Sosial",
-      title: "HIMASI Goes to School",
-      date: "20 Feb 2026",
-      desc: "Program pengabdian masyarakat dengan memperkenalkan literasi teknologi dan coding dasar ke sekolah.",
-      img: groupPhoto,
-    },
-  ];
+  // Ambil data kegiatan dari JSON, JIKA ADA potong (slice) maksimal hanya 3 item
+  const recentKegiatan = kegiatanData ? kegiatanData.slice(0, 3) : [];
 
   const [activeTab, setActiveTab] = useState(0);
+
+  // Jika data kosong, tampilkan pesan kosong (mencegah error)
+  if (!recentKegiatan || recentKegiatan.length === 0) {
+    return (
+      <div className="py-16 text-center text-foreground/50">
+        Tidak ada data kegiatan.
+      </div>
+    );
+  }
 
   return (
     <section className="relative py-16 px-6 bg-background overflow-hidden transition-colors duration-300">
@@ -50,35 +37,45 @@ const Kegiatan = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
           {/* SISI KIRI: Navigasi Tab (List Judul) */}
           <div className="lg:col-span-4 flex flex-col gap-3 order-2 lg:order-1">
-            {dataKegiatan.map((item, index) => (
-              <button
-                key={item.id}
-                onClick={() => setActiveTab(index)}
-                className={`relative p-5 rounded-2xl text-left transition-all duration-300 border ${
-                  activeTab === index
-                    ? "bg-card border-primary shadow-lg scale-[1.02] z-10"
-                    : "bg-transparent border-border hover:border-primary/50 opacity-60"
-                }`}
-              >
-                <div className="flex flex-col gap-1">
-                  <span
-                    className={`text-[10px] font-black uppercase tracking-widest ${activeTab === index ? "text-primary" : "text-foreground/50"}`}
-                  >
-                    {item.tag}
-                  </span>
-                  <h4
-                    className={`font-bold text-lg ${activeTab === index ? "text-foreground" : "text-foreground/80"}`}
-                  >
-                    {item.title}
-                  </h4>
-                </div>
-                {activeTab === index && (
-                  <div className="absolute right-4 top-1/2 -translate-y-1/2 text-primary animate-fade-in">
-                    <CheckCircle2 size={20} />
+            {recentKegiatan.map((item, index) => {
+              const isActive = activeTab === index;
+
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => setActiveTab(index)}
+                  className={`relative p-5 rounded-2xl text-left transition-all duration-300 border 
+                  ${
+                    isActive
+                      ? "bg-card border-primary shadow-lg scale-[1.02] z-10"
+                      : "bg-transparent border-border hover:border-primary/50 opacity-60 hover:opacity-100"
+                  }`}
+                >
+                  <div className="flex flex-col gap-1">
+                    <span
+                      className={`text-[10px] font-black uppercase tracking-widest ${
+                        isActive ? "text-primary" : "text-foreground/50"
+                      }`}
+                    >
+                      {item.tag}
+                    </span>
+                    <h4
+                      className={`font-bold text-lg ${
+                        isActive ? "text-foreground" : "text-foreground/80"
+                      }`}
+                    >
+                      {item.title}
+                    </h4>
                   </div>
-                )}
-              </button>
-            ))}
+
+                  {isActive && (
+                    <div className="absolute right-4 top-1/2 -translate-y-1/2 text-primary animate-fade-in">
+                      <CheckCircle2 size={20} />
+                    </div>
+                  )}
+                </button>
+              );
+            })}
           </div>
 
           {/* SISI KANAN: Detail Content Card */}
@@ -87,34 +84,46 @@ const Kegiatan = () => {
               {/* Image Section */}
               <div className="md:w-1/2 relative overflow-hidden group">
                 <img
-                  src={dataKegiatan[activeTab].img}
-                  alt={dataKegiatan[activeTab].title}
+                  src={recentKegiatan[activeTab].image} // Diubah dari .img ke .image (Sesuai dengan nama key di JSON kamu)
+                  alt={recentKegiatan[activeTab].title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent md:bg-gradient-to-r"></div>
 
                 {/* Date Badge */}
                 <div className="absolute bottom-4 left-4 md:top-4 md:bottom-auto bg-primary text-white px-4 py-1.5 rounded-full text-xs font-bold shadow-xl">
-                  {dataKegiatan[activeTab].date}
+                  {recentKegiatan[activeTab].date}
                 </div>
               </div>
 
               {/* Text Section */}
-              <div className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center animate-fade-in">
+              <div
+                className="md:w-1/2 p-8 md:p-10 flex flex-col justify-center animate-fade-in"
+                key={activeTab}
+              >
+                {" "}
+                {/* Ditambahkan key={activeTab} agar animasi jalan tiap ganti tab */}
                 <h3 className="text-2xl md:text-3xl font-black text-foreground mb-4 leading-tight">
-                  {dataKegiatan[activeTab].title}
+                  {recentKegiatan[activeTab].title}
                 </h3>
+                {/* Deskripsi (Kita tambahkan conditional jika di JSON tidak ada "desc") */}
                 <p className="text-foreground/60 text-base leading-relaxed mb-8">
-                  {dataKegiatan[activeTab].desc}
+                  {recentKegiatan[activeTab].desc ||
+                    "Lihat detail kegiatan dan dokumentasi lengkap dari acara ini dengan menekan tombol di bawah."}
                 </p>
-
-                <button className="cosmic-button w-fit flex items-center gap-2 group/btn py-3 px-8">
-                  Selengkapnya
+                {/* Tombol ke Instagram (jika ada di JSON) */}
+                <a
+                  href={recentKegiatan[activeTab].instagram || "#"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cosmic-button w-fit flex items-center gap-2 group/btn py-3 px-8 text-sm"
+                >
+                  Selengkapnya di IG
                   <ArrowRight
                     size={18}
                     className="group-hover/btn:translate-x-1 transition-transform"
                   />
-                </button>
+                </a>
               </div>
             </div>
           </div>

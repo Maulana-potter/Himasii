@@ -2,6 +2,9 @@ import React from "react";
 import { Instagram, Linkedin, Github } from "lucide-react";
 
 const LeaderCard = ({ data, isMain = false }) => {
+  // Destructure socials dari data agar lebih mudah dipanggil
+  const socials = data.socials || {};
+
   return (
     <div
       className={`relative group w-full transition-all duration-500 
@@ -21,25 +24,42 @@ const LeaderCard = ({ data, isMain = false }) => {
           />
 
           {/* Social Media - Minimalist Floating (Hanya warna --primary) */}
-          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-3 p-2 bg-[hsl(var(--card)/0.8)] backdrop-blur-md rounded-2xl opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-            <a
-              href="#"
-              className="p-2.5 text-[hsl(var(--foreground))] hover:text-[hsl(var(--primary))] transition-colors"
-            >
-              <Instagram size={20} />
-            </a>
-            <a
-              href="#"
-              className="p-2.5 text-[hsl(var(--foreground))] hover:text-[hsl(var(--primary))] transition-colors"
-            >
-              <Linkedin size={20} />
-            </a>
-            <a
-              href="#"
-              className="p-2.5 text-[hsl(var(--foreground))] hover:text-[hsl(var(--primary))] transition-colors"
-            >
-              <Github size={20} />
-            </a>
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-3 p-2 bg-[hsl(var(--card)/0.8)] backdrop-blur-md rounded-2xl opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 shadow-lg">
+            {/* Link Instagram */}
+            {socials.instagram && (
+              <a
+                href={socials.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2.5 text-[hsl(var(--foreground))] hover:text-[#E1306C] transition-colors hover:scale-110"
+              >
+                <Instagram size={20} />
+              </a>
+            )}
+
+            {/* Link LinkedIn */}
+            {socials.linkedin && (
+              <a
+                href={socials.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2.5 text-[hsl(var(--foreground))] hover:text-[#0077b5] transition-colors hover:scale-110"
+              >
+                <Linkedin size={20} />
+              </a>
+            )}
+
+            {/* Link GitHub */}
+            {socials.github && (
+              <a
+                href={socials.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2.5 text-[hsl(var(--foreground))] hover:text-[hsl(var(--primary))] transition-colors hover:scale-110"
+              >
+                <Github size={20} />
+              </a>
+            )}
           </div>
         </div>
 
