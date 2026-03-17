@@ -20,8 +20,7 @@
       "desc": "Bertanggung jawab atas administrasi organisasi.",
       "socials": {
         "instagram": "https://www.instagram.com/alifah_salsbyll?igsh=NTFpaWd3MzN0dmpv",
-        "linkedin": "https://www.linkedin.com/in/alifah-salsabila-a714a332b",
-        "github": "/"
+        "linkedin": "https://www.linkedin.com/in/alifah-salsabila-a714a332b"
       }
     },
     {
@@ -32,7 +31,6 @@
       "desc": "Mengelola sirkulasi keuangan himpunan.",
       "socials": {
         "instagram": "/",
-        "linkedin": "/",
         "github": "/"
       }
     }
@@ -67,7 +65,6 @@
         "image": "/images/humas/Afif Bajra Hawari Anhar.png",
         "socials": {
           "instagram": "https://www.instagram.com/bxjraaz?igsh=N3NuN3RpZW5qczNy&utm_source=qr",
-          "linkedin": "/",
           "github": "https://github.com/bajraaaa"
         }
       },
@@ -118,8 +115,6 @@
         "role": "Anggota",
         "image": "/images/humas/Dela Sartika Kaila.png",
         "socials": {
-          "instagram": "/",
-          "linkedin": "/",
           "github": "/"
         }
       },
@@ -130,7 +125,6 @@
         "image": "/images/humas/Dewi Artanti.png",
         "socials": {
           "instagram": "https://www.instagram.com/d.artnti",
-          "linkedin": "/",
           "github": "https://github.com/dewiartanti07"
         }
       },
@@ -189,11 +183,11 @@
         "id": 21,
         "name": "Nazar Maulana",
         "role": "Ketua Divisi",
-        "image": "/images/ristek/NAZAR MAULANA.png",
+        "image": "/images/ristek/nazar.png",
         "socials": {
-          "instagram": "https://instagram.com/dimasanggara",
-          "linkedin": "https://linkedin.com/in/dimasanggara",
-          "github": "https://github.com/dimasanggara"
+          "instagram": "https://www.instagram.com/nazarmaull/",
+          "linkedin": "https://www.linkedin.com/in/muhammad-nazar-maulana-a62298319/",
+          "github": "https://github.com/Maulana-potter"
         }
       },
       {
@@ -203,7 +197,6 @@
         "image": "/images/ristek/NABILA PUTRI .png",
         "socials": {
           "instagram": "https://www.instagram.com/nabla.put?igsh=MWwwMXJrNHJya2F3dg==",
-          "linkedin": "/",
           "github": "https://github.com/nabilaaaputri"
         }
       },
@@ -225,7 +218,6 @@
         "image": "/images/ristek/Amanda Panggabean.png",
         "socials": {
           "instagram": "https://www.instagram.com/amanda.pgbn?igsh=MXZpMjQwNHR4dTM4dg==",
-          "linkedin": "/",
           "github": "https://github.com/amanda-pgbn"
         }
       },
@@ -235,9 +227,7 @@
         "role": "Anggota",
         "image": "/images/ristek/Aswan Indra Natalis P..png",
         "socials": {
-          "instagram": "https://www.instagram.com/aswan_pakpahan?igsh=MWx4czZmZ2RxMm0yOA==",
-          "linkedin": "/",
-          "github": "/"
+          "instagram": "https://www.instagram.com/aswan_pakpahan?igsh=MWx4czZmZ2RxMm0yOA=="
         }
       },
       {
@@ -269,7 +259,6 @@
         "image": "/images/ristek/Keisya Yumna Salsabila.png",
         "socials": {
           "instagram": "https://www.instagram.com/ceisyylv?igsh=MTk4bHB1NXJtcm1hZw%3D%3D&utm_source=qr)",
-          "linkedin": "/",
           "github": "https://github.com/Keisya1308"
         }
       },
@@ -280,7 +269,6 @@
         "image": "/images/ristek/Muhammad Aidil Akbar.png",
         "socials": {
           "instagram": "https://www.instagram.com/aaidilakbarr?igsh=YndwNWNjcm1kcjAw)",
-          "linkedin": "/",
           "github": "https://github.com/aaidilakbarr"
         }
       },
@@ -290,8 +278,6 @@
         "role": "Anggota",
         "image": "/images/ristek/Muhammad Andrico Arfira.png",
         "socials": {
-          "instagram": "/",
-          "linkedin": "/",
           "github": "/"
         }
       },
@@ -301,8 +287,6 @@
         "role": "Anggota",
         "image": "/images/ristek/Muhammad Rizky Akasyah.png",
         "socials": {
-          "instagram": "/",
-          "linkedin": "/",
           "github": "https://github.com/akasyahhh"
         }
       },
@@ -345,11 +329,10 @@
         "id": 31,
         "name": "Muhammad Fauzan Azhimi",
         "role": "Ketua Divisi",
-        "image": "/images/CACA.png",
+        "image": "/images/pdsm/fauzan.png",
         "socials": {
-          "instagram": "https://instagram.com/fajarnugraha",
-          "linkedin": "https://linkedin.com/in/fajarnugraha",
-          "github": "https://github.com/fajarnugraha"
+          "instagram": "https://www.instagram.com/fauzan.azhiimii/",
+          "linkedin": "https://www.linkedin.com/in/muhammad-fauzan-azhimi-2b6a68240/"
         }
       },
       {
@@ -358,9 +341,9 @@
         "role": "Sekretaris Divisi",
         "image": "/images/pdsm/Aricha Olmi Hasibuan.png",
         "socials": {
-          "instagram": "https://instagram.com/mayaestianty",
-          "linkedin": "https://linkedin.com/in/mayaestianty",
-          "github": "https://github.com/mayaestianty"
+          "instagram": "https://instagram.com/arichao_o",
+          "linkedin": "https://www.linkedin.com/in/aricha-olmi-hasibuan/",
+          "github": "https://github.com/ArichaOlmi"
         }
       },
       {
@@ -380,9 +363,7 @@
         "role": "Anggota",
         "image": "/images/pdsm/Alya Nadhillah Zebua.png",
         "socials": {
-          "instagram": "https://www.instagram.com/alyazebuaa?igsh=OGNzMXNwdnFnNXpt",
-          "linkedin": "/",
-          "github": "/"
+          "instagram": "https://www.instagram.com/alyazebuaa?igsh=OGNzMXNwdnFnNXpt"
         }
       },
       {
@@ -392,7 +373,6 @@
         "image": "/images/pdsm/Ananda Pratama.png",
         "socials": {
           "instagram": "https://www.instagram.com/nndaaaaprtma?igsh=Z2w1c25mejV2cW5r",
-          "linkedin": "/",
           "github": "https://github.com/nazzeL32"
         }
       },
@@ -403,7 +383,6 @@
         "image": "/images/pdsm/Balqis Alhumaira.png",
         "socials": {
           "instagram": "https://www.instagram.com/blqishmr?igsh=MTZncmJibDE0d2tuMw%3D%3D&utm_source=qr",
-          "linkedin": "/",
           "github": "https://github.com/balqis-star"
         }
       },
@@ -414,7 +393,6 @@
         "image": "/images/pdsm/Ikmal Fahrizan.png",
         "socials": {
           "instagram": "https://www.instagram.com/ikmall.al?igsh=bzU3ZTViNWxwZGQ2&utm_source=qr",
-          "linkedin": "/",
           "github": "https://github.com/ikmalfhrz"
         }
       },
@@ -423,22 +401,14 @@
         "name": "Muhammad Anzwa Noor",
         "role": "Anggota",
         "image": "/images/pdsm/Muhammad Anzwa Noor.png",
-        "socials": {
-          "instagram": "/",
-          "linkedin": "/",
-          "github": "/"
-        }
+        "socials": {}
       },
       {
         "id": 39,
         "name": "Muhammad Ghazi",
         "role": "Anggota",
         "image": "/images/pdsm/Muhammad Ghazi.png",
-        "socials": {
-          "instagram": "/",
-          "linkedin": "/",
-          "github": "/"
-        }
+        "socials": {}
       },
       {
         "id": 40,
@@ -447,7 +417,6 @@
         "image": "/images/pdsm/Muhammad Ifdal Sofyan.png",
         "socials": {
           "instagram": "https://www.instagram.com/ifdal_sfyn?igsh=aXVtZjlrZTdyNzYy",
-          "linkedin": "/",
           "github": "https://github.com/ifdal-sofyan"
         }
       },
@@ -478,11 +447,7 @@
         "name": "Siti Rahmami Anggina Pohan",
         "role": "Anggota",
         "image": "/images/pdsm/Siti Rahmami Anggina Pohan.png",
-        "socials": {
-          "instagram": "/",
-          "linkedin": "/",
-          "github": "/"
-        }
+        "socials": {}
       },
       {
         "id": 44,
@@ -502,7 +467,6 @@
         "image": "/images/pdsm/Zalwa Nur  Adzani.png",
         "socials": {
           "instagram": "https://www.instagram.com/_zzalwaa?igsh=MW4wZ3FuOGV1cW90cg%3D%3D&utm_source=qr",
-          "linkedin": "/",
           "github": "https://github.com/zzalwa"
         }
       }
@@ -537,7 +501,6 @@
         "image": "/images/Medinfo/Aidil Daffa.png",
         "socials": {
           "instagram": "https://www.instagram.com/_aidldppa",
-          "linkedin": "/",
           "github": "https://github.com/Aidldppa"
         }
       },
@@ -548,7 +511,6 @@
         "image": "/images/Medinfo/Arief Fadillah.png",
         "socials": {
           "instagram": "https://www.instagram.com/arif_fadillaa",
-          "linkedin": "/",
           "github": "/"
         }
       },
@@ -559,7 +521,6 @@
         "image": "/images/Medinfo/Arvi Ardila.png",
         "socials": {
           "instagram": "https://www.instagram.com/arviiardilaa",
-          "linkedin": "/",
           "github": "https://github.com/arviardila"
         }
       },
@@ -570,7 +531,6 @@
         "image": "/images/Medinfo/Baiq Reingganis Sutami.png",
         "socials": {
           "instagram": "https://www.instagram.com/bqreingganiss",
-          "linkedin": "/",
           "github": "https://github.com/baiqreingganissutami12-ai"
         }
       },
@@ -614,7 +574,6 @@
         "image": "/images/Medinfo/Muhammad Naufal Hakimi.png",
         "socials": {
           "instagram": "https://www.instagram.com/cre3ppz/",
-          "linkedin": "/",
           "github": "https://github.com/iribilangbosht54-cpu"
         }
       },
@@ -625,7 +584,6 @@
         "image": "/images/Medinfo/Muhammad Priya Pambudhi.png",
         "socials": {
           "instagram": "https://www.instagram.com/priyapambudhii",
-          "linkedin": "/",
           "github": "https://github.com/priyapamb"
         }
       },
@@ -636,7 +594,6 @@
         "image": "/images/Medinfo/Nadia Puspita.png",
         "socials": {
           "instagram": "https://www.instagram.com/ndiapsptaa",
-          "linkedin": "/",
           "github": "https://github.com/puspitanadia987-afk"
         }
       },

@@ -3,11 +3,14 @@ import React from "react";
 const MomentSection = () => {
   // --- DATA FOTO MOMEN ---
   const moments = [
-    "/images/bg.JPG",
-    "/images/bg.JPG",
-    "/images/bg.JPG",
-    "/images/bg.JPG",
-    "/images/bg.JPG",
+    "/images/gallery/1.jpeg",
+    "/images/gallery/2.jpeg",
+    "/images/gallery/3.jpeg",
+    "/images/gallery/4.jpeg",
+    "/images/gallery/5.jpeg",
+    "/images/gallery/6.jpeg",
+    "/images/gallery/7.jpeg",
+    "/images/gallery/8.jpeg",
   ];
 
   return (
@@ -15,7 +18,7 @@ const MomentSection = () => {
       <div className="container mx-auto px-6 max-w-7xl relative">
         {/* TEKS RAKSASA DI TENGAH */}
         <div className="absolute inset-0 flex items-center justify-center  z-20">
-          <h2 className="text-4xl md:text-6xl lg:text-[7rem] font-black  drop-shadow-sm ">
+          <h2 className="text-4xl md:text-6xl lg:text-[7rem] font-black  drop-shadow-sm text-white">
             HIMASI 2026
           </h2>
         </div>
@@ -28,12 +31,18 @@ const MomentSection = () => {
 
           <div className="flex w-max hover:[animation-play-state:paused]">
             {/* TRACK 1 */}
-            <div className="flex items-center animate-infinite-scroll">
+            <div
+              className="flex items-center"
+              style={{
+                animation: "infinite-scroll 24s linear infinite",
+                animationPlayState: "running",
+              }}
+            >
               {moments.map((img, index) => (
                 <div
                   key={`track1-${index}`}
                   // Grayscale dan opacity dihapus. Fotonya sekarang full color!
-                  className="group relative w-[260px] md:w-[380px] h-[300px] md:h-[400px] mx-6 md:mx-10 overflow-hidden -skew-x-12 shadow-xl transition-all duration-500 hover:z-40 hover:-translate-y-4 hover:scale-[1.02] cursor-pointer"
+                  className="group relative w-[260px] md:w-[380px] h-[300px] md:h-[400px] mx-6 md:mx-10 overflow-hidden -skew-x-12 border-2 border-[hsl(var(--border))] shadow-xl transition-all duration-500 hover:z-40 hover:-translate-y-4 hover:scale-[1.02] cursor-pointer"
                 >
                   <img
                     src={img}
@@ -48,13 +57,17 @@ const MomentSection = () => {
 
             {/* TRACK 2 (Duplikat) */}
             <div
-              className="flex items-center animate-infinite-scroll"
+              className="flex items-center"
               aria-hidden="true"
+              style={{
+                animation: "infinite-scroll 24s linear infinite",
+                animationPlayState: "running",
+              }}
             >
               {moments.map((img, index) => (
                 <div
                   key={`track2-${index}`}
-                  className="group relative w-[260px] md:w-[380px] h-[300px] md:h-[400px] mx-6 md:mx-10 overflow-hidden -skew-x-12 shadow-xl transition-all duration-500 hover:z-40 hover:-translate-y-4 hover:scale-[1.02] cursor-pointer"
+                  className="group relative w-[260px] md:w-[380px] h-[300px] md:h-[400px] mx-6 md:mx-10 overflow-hidden -skew-x-12 border-2 border-[hsl(var(--border))] shadow-xl transition-all duration-500 hover:z-40 hover:-translate-y-4 hover:scale-[1.02] cursor-pointer"
                 >
                   <img
                     src={img}

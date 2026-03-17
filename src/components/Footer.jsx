@@ -38,12 +38,12 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Instagram,
-      href: "https://instagram.com/himasi_kampus",
+      href: "https://www.instagram.com/himasiumsu/",
       label: "Instagram",
     },
     {
       icon: TikTokIcon,
-      href: "https://tiktok.com/@himasi_kampus",
+      href: "https://www.tiktok.com/@himasi.umsu",
       label: "TikTok",
     },
   ];
@@ -90,7 +90,7 @@ const Footer = () => {
               Hubungi Kami
             </h4>
 
-            <div className="space-y-3 mb-6">
+            {/* <div className="space-y-3 mb-6">
               <a
                 href="mailto:himasi@univ.ac.id"
                 className="flex items-center justify-center md:justify-end space-x-2 text-foreground/80 hover:text-primary transition-colors"
@@ -105,7 +105,7 @@ const Footer = () => {
                 <Phone size={18} />
                 <span>+62 812 3456 7890</span>
               </a>
-            </div>
+            </div> */}
 
             {/* Social Media (Di-render pakai .map) */}
             <div className="flex justify-center md:justify-end space-x-3">
