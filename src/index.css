@@ -60,6 +60,21 @@
       opacity: 0;
     }
   }
+  @keyframes infinite-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      /* Menggeser 100% dari elemen pembungkus pertama */
+      transform: translateX(-100%);
+    }
+  }
+}
+
+@layer utilities {
+  .animate-infinite-scroll {
+    animation: infinite-scroll 24s linear infinite;
+  }
 }
 
 @layer base {

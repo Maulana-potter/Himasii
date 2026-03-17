@@ -62,11 +62,6 @@ const Hero = () => {
 
             {/* 3. Bagian Deskripsi & Tombol */}
             <div className="flex flex-col items-center lg:items-start order-3">
-              <p className="text-foreground/70 text-base md:text-xl max-w-2xl mb-10 leading-relaxed animate-fade-in-delay-2 opacity-0 fill-mode-forwards">
-                Wadah kolaborasi dan inovasi untuk mengembangkan potensi
-                mahasiswa dalam menghadapi tantangan teknologi di masa depan.
-              </p>
-
               <div className="flex flex-wrap gap-4 md:gap-5 justify-center lg:justify-start animate-fade-in-delay-3 opacity-0 fill-mode-forwards">
                 <Link
                   to="/about"
