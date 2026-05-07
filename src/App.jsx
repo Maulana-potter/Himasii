@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Kegiatan from "./pages/Kegiatan";
 import Pengurus from "./pages/Pengurus";
 import News from "./pages/News";
+import NewsDetail from "./pages/NewsDetail";
 import Gallery from "./pages/Gallery";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/kegiatan" element={<Kegiatan />} />
         <Route path="/pengurus" element={<Pengurus />} />
         <Route path="/news" element={<News />} />
+        <Route path="/news/:id" element={<NewsDetail />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
       <Footer />

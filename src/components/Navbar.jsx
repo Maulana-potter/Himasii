@@ -74,6 +74,7 @@ const Navbar = () => {
             { name: "Tentang Kami", path: "/about" },
             { name: "Kegiatan", path: "/kegiatan" },
             { name: "Pengurus", path: "/pengurus" },
+            { name: "Berita", path: "/news" },
             { name: "Gallery", path: "/gallery" },
           ].map((item) => (
             <NavLink
@@ -120,6 +121,7 @@ const Navbar = () => {
             { name: "Tentang Kami", path: "/about" },
             { name: "Kegiatan", path: "/kegiatan" },
             { name: "Pengurus", path: "/pengurus" },
+            { name: "Berita", path: "/news" },
             { name: "Gallery", path: "/gallery" },
           ].map((item) => (
             <NavLink
